@@ -4,16 +4,10 @@ header{
     overflow: hidden;
 }
 .header_container{
-    
-   display: grid;
-   grid-template-columns: 150px/auto auto;
-   gap: 10%;
     text-align: center;
-    height: 100%;
+    height: 100vh;
     position: relative;
     margin-top: 3.5rem;
-    
-
 }
 
 /* ========= CTA ======== */
@@ -27,24 +21,24 @@ header{
 /* ========= HEADER SOCIALS ======== */
 
 .header_socials{
-    cursor: pointer;
+    z-index: 3;
     font-size: 1.2rem;
     display: flex;
-    padding: 0.2rem;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    padding: 0.3rem;
     position: absolute;
+    gap: 0.8rem;
     left: 8%;
     top: 30%;
 }
 
-/* .header_socials::after{
+.header_socials::after{
     content: "";
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
-} */
+}
 
 /* ======== ME ======== */
 
@@ -97,18 +91,7 @@ header{
         height: 86vh;
     }
 }
-/* =========MEDIA QUERIES (600px -850px) ========= */
 
-@media screen and (max-width: 850px) {
-    /* .intro-me{
-        left: 1.5rem;
-        width: 19rem;
-    }
-    .me{
-        width: 14rem;
-        right: 1.5rem;
-    } */
-}
 /* =========MEDIA QUERIES (SMALL DEVICES) ========= */
 
 @media screen and (max-width: 650px) {

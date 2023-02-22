@@ -7,9 +7,11 @@ import HeaderSocials from "./HeaderSocials";
 function Header() {
   return (
     <>
-      <header id="header">
+      <header id="header">  
+      
         <div className="container header_container">
           <HeaderSocials />
+        
 
           <div className="intro-me">
             <h5>Hello I'm</h5>
