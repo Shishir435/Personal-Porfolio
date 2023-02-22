@@ -1,0 +1,121 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+.header_container{
+    
+   display: grid;
+   grid-template-columns: 150px/auto auto;
+   gap: 10%;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    margin-top: 3.5rem;
+    
+
+}
+
+/* ========= CTA ======== */
+.cta{
+     margin-top:  2.5rem;
+     display: flex;
+     gap: 1.2rem;
+     justify-content: center;
+}
+
+/* ========= HEADER SOCIALS ======== */
+
+.header_socials{
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    padding: 0.2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 8%;
+    top: 30%;
+}
+
+/* .header_socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+} */
+
+/* ======== ME ======== */
+
+
+.intro-me{
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+    height: inherit;
+    
+}
+.me{
+
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 16rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+   
+}
+
+.me img{
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: inherit;
+}
+
+/* ========== SCROLL DOWN ========== */
+.scroll_down{
+    position: absolute;
+    right: 8%;
+    bottom: 40%;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+
+/* =========MEDIA QUERIES (MEDIUM DEVICES) ========= */
+
+@media screen and (max-width: 1024px) {
+    .header_socials{
+        left: 5%;
+    }
+    .scroll_down{
+        right: 5%;
+    }
+    header{
+        height: 86vh;
+    }
+}
+/* =========MEDIA QUERIES (600px -850px) ========= */
+
+@media screen and (max-width: 850px) {
+    /* .intro-me{
+        left: 1.5rem;
+        width: 19rem;
+    }
+    .me{
+        width: 14rem;
+        right: 1.5rem;
+    } */
+}
+/* =========MEDIA QUERIES (SMALL DEVICES) ========= */
+
+@media screen and (max-width: 650px) {
+  header{
+    height: 100vh;
+  }
+  .header_socials,.scroll_down{
+       display: none;
+  }
+}
