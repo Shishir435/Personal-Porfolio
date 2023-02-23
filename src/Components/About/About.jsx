@@ -36,7 +36,7 @@ function About(){
                         </article>
                         
                     </div>
-                    <p>Hello, my name is Shishir Chaurasiya, and I am starting a career in Web Design and Development. I enjoy creating interactive and responsive websites. Please contact me if you have any suggestions.</p>
+                    <p>Hello, my name is Shishir Chaurasiya, and I am starting a career in Web Designing and Development. I enjoy creating interactive and responsive websites. Please get in touch with me if you have any suggestions.</p>
                         <a href="#contact"  className="btn btn-primary">Let's Talk</a>
                 </div>
             </div>
