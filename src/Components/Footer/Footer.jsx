@@ -14,7 +14,6 @@ function Footer(){
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div className="footer__socials">
@@ -22,7 +21,7 @@ function Footer(){
                 <a href="https://instagram.com/_shishir435" rel='noreferrer' target='_blank'><BsInstagram /></a>
                 <a href="https://www.linkedin.com/in/shishir-chaurasiya-b3b7ab234/" rel='noreferrer' target='_blank'><BsLinkedin /></a>
             </div>
-            <div className="footer__copyright"> &copy; Shishir {date}</div>
+            <div className="footer__copyright">Copyright &copy;Shishir {date}</div>
         </footer>
         </>
     );

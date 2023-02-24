@@ -7,7 +7,6 @@ import Nav from "./Components/Nav/Nav.jsx";
 import Experience from "./Components/Experience/Experience.jsx";
 import Services from "./Components/Services/Services.jsx";
 import Portfolio from "./Components/Portfolio/Portfolio.jsx";
-import Testimonials from "./Components/Testimonials/Testimonials";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
     <Experience />
     <Services />
     <Portfolio />
-    <Testimonials />
     <Contact />
     <Footer />
     </>

@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css"
 import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUser} from 'react-icons/fi'
+// import {FiUser} from 'react-icons/fi'
 import {ImFolderOpen} from 'react-icons/im'
 function About(){
 
@@ -22,13 +22,13 @@ function About(){
                         <article className="about__card">
                             <FaAward className="about__icon"/>
                             <h5>Experience</h5>
-                            <small>1+ Year Working</small>
+                            <small>6+ months Working</small>
                         </article>
-                        <article className="about__card">
+                        {/* <article className="about__card">
                             <FiUser className="about__icon"/>
                             <h5>Clients</h5>
-                            <small>8+ Worldwide</small>
-                        </article>
+                            <small>3+ Worldwide</small>
+                        </article> */}
                         <article className="about__card">
                             <ImFolderOpen className="about__icon"/>
                             <h5>Projects</h5>
