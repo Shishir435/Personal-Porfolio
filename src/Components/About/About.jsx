@@ -22,13 +22,9 @@ function About(){
                         <article className="about__card">
                             <FaAward className="about__icon"/>
                             <h5>Experience</h5>
-                            <small>6+ months Working</small>
+                            <small>3+ months Working</small>
                         </article>
-                        {/* <article className="about__card">
-                            <FiUser className="about__icon"/>
-                            <h5>Clients</h5>
-                            <small>3+ Worldwide</small>
-                        </article> */}
+                        
                         <article className="about__card">
                             <ImFolderOpen className="about__icon"/>
                             <h5>Projects</h5>

@@ -7,15 +7,14 @@ import HeaderSocials from "./HeaderSocials";
 function Header() {
   return (
     <>
-      <header id="header">  
-      
+      <header id="header">
         <div className="container header_container">
           <HeaderSocials />
-        
 
           <div className="intro-me">
             <h5>Hello I'm</h5>
             <h1>Shishir Chaurasiya</h1>
+
             <h5 className="text-light">Fullstack Developer</h5>
             <CTA />
           </div>
@@ -25,7 +24,7 @@ function Header() {
             </div> */}
 
           <a href="#contact" className="scroll_down">
-            Scroll Down 
+            Scroll Down
           </a>
         </div>
       </header>

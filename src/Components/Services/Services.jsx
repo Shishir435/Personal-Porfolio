@@ -1,7 +1,7 @@
 import React from "react";
 import "./Services.css";
 // import { BsCheckLg } from "react-icons/bs";
-import { VscDebugBreakpointLog} from "react-icons/vsc";
+import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 function Services() {
   return (
@@ -15,20 +15,27 @@ function Services() {
               <h3>Web-Design</h3>
             </div>
             <ul className="services__list">
-             
-               <li>
+              <li>
                 <VscDebugBreakpointLog className="services__list_icon" />
-                <p>frames a solution or strategy to deliver the best experience to the user</p>
+                <p>
+                  frames a solution or strategy to deliver the best experience
+                  to the user
+                </p>
               </li>
               <li>
                 <VscDebugBreakpointLog className="services__list_icon" />
-                <p>Create user flows, wireframes, prototypes, low-fidelity mockups, and high-fidelity mockups.</p>
+                <p>
+                  Create user flows, wireframes, prototypes, low-fidelity
+                  mockups, and high-fidelity mockups.
+                </p>
               </li>
               <li>
                 <VscDebugBreakpointLog className="services__list_icon" />
-                <p>Create user-centered designs based on customer voices, user journeys, feedback, and usability discoveries.</p>
+                <p>
+                  Create user-centered designs based on customer voices, user
+                  journeys, feedback, and usability discoveries.
+                </p>
               </li>
-             
             </ul>
           </article>
           {/* end of Web Design */}
@@ -39,24 +46,32 @@ function Services() {
             <ul className="services__list">
               <li>
                 <VscDebugBreakpointLog className="services__list_icon" />
-                <p>Database creation, integration, and management</p>
+                <p>Database creation, integration, and management.</p>
               </li>
               <li>
                 <VscDebugBreakpointLog className="services__list_icon" />
-                <p>Back-end frameworks to build server-side software</p>
+                <p>Back-end frameworks to build server-side software.</p>
               </li>
               <li>
                 <VscDebugBreakpointLog className="services__list_icon" />
-                <p>API integration with database using Web server technologies.</p>
+                <p>
+                  API integration with database using Web server technologies.
+                </p>
               </li>
-             
+
               <li>
                 <VscDebugBreakpointLog className="services__list_icon" />
-                <p>Content management system development, deployment, and maintenance.</p>
+                <p>
+                  Backing up and restoring technologies for a websites files and
+                  DB.
+                </p>
               </li>
               <li>
                 <VscDebugBreakpointLog className="services__list_icon" />
-                <p>Backing up and restoring technologies for a website’s files and DB</p>
+                <p>
+                  Content management, system development, deployment, and
+                  maintenance.
+                </p>
               </li>
             </ul>
           </article>
@@ -84,9 +99,11 @@ function Services() {
               </li>
               <li>
                 <VscDebugBreakpointLog className="services__list_icon" />
-                <p>Creating tools that enhance interaction with the site in any browser</p>
+                <p>
+                  Creating tools that enhance interaction with the site in any
+                  browser
+                </p>
               </li>
-              
             </ul>
           </article>
           {/* end  of Front-end */}
