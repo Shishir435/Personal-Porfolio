@@ -3,11 +3,18 @@ import IMG1 from "../../assets/Weather-app.png";
 import IMG2 from "../../assets/todo.png";
 import IMG3 from "../../assets/newsLetter.png";
 import IMG4 from "../../assets/my-1st-site.png";
-import IMG5 from "../../assets/drumkit.png";
+import IMG5 from "../../assets/youtubeClone.png";
 import IMG6 from "../../assets/tindog.png";
 import "./portfolio.css";
 
 const data = [
+  {
+    id: 5,
+    image: IMG5,
+    title: "YouTube-Clone",
+    github: "https://github.com/Shishir435/youtube-clone",
+    demo: "https://cloneyoutubeap.netlify.app/",
+  },
   {
     id: 1,
     image: IMG1,
@@ -44,13 +51,7 @@ const data = [
     github: "https://github.com/Shishir435/My-1st-site",
     demo: "https://shishir435.github.io/My-1st-site/",
   },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Drum-Kit",
-    github: "https://github.com/Shishir435/Drum-Kit",
-    demo: "https://shishir435.github.io/Drum-Kit/",
-  },
+ 
 ];
 
 function Portfolio() {
